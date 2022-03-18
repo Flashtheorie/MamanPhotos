@@ -61,7 +61,7 @@ Merci de voter encore <hspan id="counter-label">50</hspan> fois
 
 <br>
 <hr>
-Crée par <a href="https://github.com/Flashtheorie" target="blank()">Antoine Pascual</a>
+Crée par <a href="https://github.com/Flashtheorie" target="blank()">Antoine Pascual</a> | Lien du <a href="https://github.com/Flashtheorie/MamanPhotos" target="blank()">Github</a>
 
 <script>
 var counterVal = 50;
