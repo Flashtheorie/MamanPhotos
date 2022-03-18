@@ -33,7 +33,7 @@ require_once 'credentials.php'; ?>
 <div class="container" align="center">
 <h1><i class="fa-solid fa-down"></i> Clique sur ta photo préférée <i class="fa-solid fa-down"></i></h1>
 
-<button class="btn btn-hg btn-danger" id="none"><i class="fa-solid fa-xmark-large"></i> Aucune des deux</button>
+<button class="btn btn-hg btn-danger" id="none"><i class="fa-solid fa-ban"></i> Aucune des deux</button>
 <br><br><br>
 <div class="row">
 
@@ -49,6 +49,11 @@ require_once 'credentials.php'; ?>
 <hr>
 <div align="center">
 Merci de voter encore <hspan id="counter-label">50</hspan> fois
+
+<br>
+<hr>
+Crée par <a href="https://github.com/Flashtheorie" target="blank()">Antoine Pascual</a>
+
 <script>
 var counterVal = 50;
 
