@@ -6,6 +6,7 @@
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-01"></button>
   <div class="collapse navbar-collapse" id="navbar-collapse-01">
     <ul class="nav navbar-nav mr-auto">
+      <li><a href="home.php">Votes</a></li>
       <li><a href="classement.php">Classement</a></li>
       
     </ul>

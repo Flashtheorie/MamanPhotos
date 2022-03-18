@@ -26,7 +26,7 @@ require_once 'credentials.php'; ?>
 
 
 <div class="container" align="center">
-<h1>Clique sur ta photo préférée</h1>
+<h1><i class="fa-solid fa-down"></i> Clique sur ta photo préférée <i class="fa-solid fa-down"></i></h1>
 
 <button class="btn btn-hg btn-danger" id="none"><i class="fa-solid fa-xmark-large"></i> Aucune des deux</button>
 <br><br><br>
@@ -43,9 +43,9 @@ require_once 'credentials.php'; ?>
 
 <hr>
 <div align="center">
-Merci de voter encore <hspan id="counter-label">100</hspan> fois
+Merci de voter encore <hspan id="counter-label">50</hspan> fois
 <script>
-var counterVal = 100;
+var counterVal = 50;
 
 function incrementClick() {
     updateDisplay(--counterVal);
