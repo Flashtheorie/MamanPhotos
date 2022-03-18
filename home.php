@@ -90,12 +90,12 @@ $("#photos2").load("afficherphotos2.php");
 $("#none").click(function(){
 	$("#photos1").fadeOut('slow', function(){
         $("#photos1").load("/views/afficherphotos1.php", function(){
-        $("#photos1").show('slow');
+        $("#photos1").slideDown('slow');
     });
     });
 	$("#photos2").fadeOut('slow', function(){
         $("#photos2").load("/views/afficherphotos2.php", function(){
-        $("#photos2").show('slow');
+        $("#photos2").slideDown('slow');
     });
     });
 	
