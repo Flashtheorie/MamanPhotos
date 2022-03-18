@@ -79,14 +79,18 @@ function updateDisplay(val) {
 $("#photos1").load("afficherphotos1.php");
 $("#photos2").load("afficherphotos2.php");
 $("#none").click(function(){
-	$("#photos1").hide('slow');
-	$("#photos2").hide('slow');
-	$("#photos1").load("/views/afficherphotos1.php", function(){
-		$("#photos1").show('slow');
-	});
-	$("#photos2").load("/views/afficherphotos2.php", function(){
-		$("#photos2").show('slow');
-	});
+	$("#photos1").fadeOut('slow', function(){
+        $("#photos1").load("/views/afficherphotos1.php", function(){
+        $("#photos1").show('slow');
+    });
+    });
+	$("#photos2").fadeOut('slow', function(){
+        $("#photos2").load("/views/afficherphotos2.php", function(){
+        $("#photos2").show('slow');
+    });
+    });
+	
+	
 })
 
 
