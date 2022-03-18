@@ -20,6 +20,15 @@
 
 <body>
 
+<style>
+    #photos2 {
+        cursor: pointer;
+    }
+
+    #photos1 {
+        cursor: pointer;
+    }
+</style>
 <?php include 'navbar.php';
 
 require_once 'credentials.php'; ?>
